@@ -12,9 +12,9 @@
 
 
 def modelPrinter(model):
-    turingModelSTR = '''
-    
-    '''
+    turingModelSTR = ''' Turing Model是一台假想機器，能模仿人的運算過程。它有一條無限長的紙帶、一個讀寫頭、
+    一套運算規則和一個狀態暫存器。紙帶被劃分為無限多個格子，用來紀錄符號，讀寫頭則能讀出符號，並且依據運算規則
+    改變符號，暫存器用來儲存當前的狀態。而整個機器會運算到沒有適用的指令為止。'''
     
     vonNewmannModelSTR = '''
     
