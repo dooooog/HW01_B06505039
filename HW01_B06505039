@@ -16,10 +16,8 @@ def modelPrinter(model):
     一套運算規則和一個狀態暫存器。紙帶被劃分為無限多個格子，用來紀錄符號，讀寫頭則能讀出符號，並且依據運算規則
     改變符號，暫存器用來儲存當前的狀態。而整個機器會運算到沒有適用的指令為止。'''
     
-    vonNewmannModelSTR = '''vonNewmann Model將運算規則也儲存在記憶體中，透過改變規則來完成各種運算，也可以
-    視為許多Turing machine的結合。也因運算規則和資料同時被儲存在記憶體中，它們必須是以相同的格式被儲存。
-    
-    '''
+    vonNewmannModelSTR = '''vonNewmann Model將運算規則也儲存在記憶體中，且與資料以相同的格式被儲存，透過改
+    變規則來完成各種運算，也可以視為許多個Turing machine的結合。'''
     
     if model == "Alen Turing":
         print(turingModelSTR)
